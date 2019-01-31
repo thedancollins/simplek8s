@@ -1,0 +1,5 @@
+kubectl delete -f client-pod.yaml
+kubectl apply -f client-deployment.yaml
+kubectl get po
+kubectl get deployments
+minikube ip -> http:// + 31515
