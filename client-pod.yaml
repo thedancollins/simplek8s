@@ -9,5 +9,5 @@ spec:
     - name: client
       image: currentanalyticsio/multi-worker
       ports:
-        - containerPort: 3000
+        - containerPort: 9999
       
