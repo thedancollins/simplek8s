@@ -1,0 +1,3 @@
+kubectl apply -f client-pod.yaml
+kubectl get po
+kubectl describe pod client-pod
