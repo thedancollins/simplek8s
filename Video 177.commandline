@@ -1,0 +1,2 @@
+docker build -t currentanalyticsio/multi-client .
+docker push currentanalyticsio/multi-client
