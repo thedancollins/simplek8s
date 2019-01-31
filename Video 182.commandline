@@ -1,0 +1,8 @@
+docker logs 5f9e9889285a
+docker exec -it 5f9e9889285a sh
+#> ls -al
+#>exit
+kubectl get po
+kubectl logs client-deployment-8dc9595bd-px2zs = the same thig as docker logs 5f9e9889285a
+kubectl exec -it client-deployment-8dc9595bd-px2zs sh = the same thing as docker exec -it 5f9e9889285a sh
+docker system prune -a
